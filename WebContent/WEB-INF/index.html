@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+function callsubmit()
+{
+	alert("welcome");
+	//document.forms[0].location.href="/Success.html";
+	//window.location="Success.html";
+}
+</script>
+</head>
+
+<body>
+<form name="registration" onsubmit="callsubmit()")>
+<table>
+<tr><td>Username</td><td><input type="textfield" name="Username" size = 50></td></tr>
+<tr><td>Password</td><td><input type="password" name="Password" size = 10></td></tr>
+<tr><td><input type="Submit" name="Submit" ></td>
+<td><input type="Reset" name="Reset"></td></tr>
+</table>
+</form>
+</body>
+</html>
